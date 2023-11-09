@@ -8,7 +8,8 @@
     "backend": "node --watch backend/index.cjs",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "newman run endpoint-tests/endpoint-tests-postman_collection.json"
   },
   "dependencies": {
     "concurrently": "^8.0.1",
